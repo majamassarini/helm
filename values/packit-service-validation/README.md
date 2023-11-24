@@ -1,10 +1,10 @@
 ## Install
 
-Login to **MP+ preprod cluster** and switch to `packit--validation` project to install **validation for Packit production instance**.  
+Login to **MP+ preprod cluster** and switch to `packit--validation` project to install **validation for Packit production instance**.
 
 Or login to **MP+ prod cluster** and switch to `packit--validation` project to install **validation for Packit staging instance**.
 
-In this way instances are validated from outside their clusters.  
+In this way instances are validated from outside their clusters.
 
     oc login --token=sha256~....  --server= ....
     oc project packit--validation
